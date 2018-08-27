@@ -1,0 +1,25 @@
+{
+  "name": "w2rpc/w2rpc",
+  "description":  "php rpc",
+  "keywords": ["w2rpc"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jingyi.wang",
+      "email": "8612645@qq.com",
+      "homepage": "https://github.com/wangjingyi2012",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "w2rpc\\": "src/"
+    }
+  }
+}
