@@ -5,7 +5,7 @@
  * @author jingyi.wang
  */
 
-namespace Core\Http;
+namespace w2rpc;
 
 
 use Curl\Curl;
